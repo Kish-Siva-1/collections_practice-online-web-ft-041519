@@ -23,3 +23,9 @@ def reverse_array(arr)
   arr.reverse
 end 
 
+def kesha_maker(arr)
+  arr.each do |letter|
+    letter[3]="$" 
+  end
+end 
+
