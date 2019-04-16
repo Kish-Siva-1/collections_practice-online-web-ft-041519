@@ -31,7 +31,7 @@ end
 
 def kesha_maker(arr)
   arr.each do |letter|
-    letter.insert 3  
+    letter.insert 3,  
   end
 end 
 
