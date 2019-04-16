@@ -3,8 +3,8 @@ def add_s(arr)
   array = []
   
   arr.each do |letter|
-      next if counter == 1
   letter = letter.concat("s")
+      next if counter == 1
   counter+=1
   end 
    
