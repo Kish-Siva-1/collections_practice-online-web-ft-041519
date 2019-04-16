@@ -45,6 +45,7 @@ end
 
 def find_a(arr)
   arr.find do |a|
+    a = "a"
     
   end
 end 
