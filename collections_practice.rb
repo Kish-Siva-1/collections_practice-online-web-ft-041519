@@ -44,7 +44,7 @@ end
   end
 
 def find_a(arr)
-  arr.find do |a|
+  arr.select do |a|
     a = "a"
     
   end
