@@ -31,7 +31,7 @@ end
 
 def kesha_maker(arr)
   arr.each do |letter|
-    letter.insert 3, "$" 
+    letter[3]="$" 
   end
 end 
 
@@ -44,7 +44,7 @@ end
   end
 
 def find_a
-
+  
 end 
 
   # Question 7
