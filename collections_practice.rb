@@ -30,7 +30,9 @@ end
   end
 
 def kesha_maker(arr)
-  arr.each do ||
+  arr.each do |letter|
+    letter[] 
+  end
 end 
 
   # Question 6
