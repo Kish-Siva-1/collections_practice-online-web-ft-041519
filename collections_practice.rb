@@ -49,15 +49,8 @@ def find_a(arr)
   end
 end 
 
-  # Question 7
-  describe '#find_a' do
-    it 'find all words that begin with "a" in the following array' do
-      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
-    end
-  end
-
-def sum_array
-
+def sum_array(arr)
+  arr.
 end
 
   # Question 8
