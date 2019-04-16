@@ -43,8 +43,8 @@ end
     end
   end
 
-def find_a
-  
+def find_a(arr)
+  arr
 end 
 
   # Question 7
