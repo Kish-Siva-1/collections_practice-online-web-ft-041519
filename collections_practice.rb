@@ -52,18 +52,12 @@ end
 def sum_array(arr)
   arr.inject do |total, number|
     total + number 
+  end 
 end
 
-  # Question 8
-  describe '#sum_array' do
-    #for a bonus, look up the `.inject` method to get this test passing
-    it 'sum all the numbers in the following array' do
-      expect(sum_array([11,4,7,8,9,100,134])).to eq(273)
-    end
-  end
-
-def add_s
-
+def add_s(arr)
+  counter = 0 
+  for arr 
 end 
 
   # Question 9
