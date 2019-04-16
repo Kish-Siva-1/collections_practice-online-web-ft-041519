@@ -29,4 +29,9 @@ def kesha_maker(arr)
   end
 end 
 
+def find_a(arr)
+  arr.select do |letter|
+    letter.start_with?('a')
+  end
+end 
 
