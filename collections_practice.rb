@@ -58,7 +58,7 @@ end
 def add_s(arr)
   counter = 0 
   
-  while counter < arr.count 
+  while counter < (arr.count - 1) 
     arr(counter) = arr(counter) + "s"
       unless arr[counter] = arr[2]
     counter+=1
