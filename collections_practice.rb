@@ -45,8 +45,8 @@ def add_s(arr)
   array = []
   
   while counter < (arr.count - 1) 
-    array = arr(counter) 
-    arr(counter) = array + "s"
+    array = arr[counter] 
+    arr[counter] = array + "s"
       unless arr[counter] == arr[2]
     counter+=1
   end 
