@@ -44,7 +44,7 @@ end
   end
 
 def find_a(arr)
-  arr
+  arr.find
 end 
 
   # Question 7
