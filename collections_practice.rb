@@ -44,8 +44,8 @@ end
   end
 
 def find_a(arr)
-  arr.select do |a|
-    a = "a"
+  arr.select do |letter|
+    letter[] = "a"
     
   end
 end 
