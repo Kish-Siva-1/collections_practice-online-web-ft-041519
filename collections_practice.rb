@@ -19,7 +19,7 @@ def swap_elements(arr)
 end 
 
 def reverse_array(arr)
-  arr
+  arr.reverse
 end 
 
   # Question 5
@@ -29,8 +29,8 @@ end
     end
   end
 
-def kesha_maker
-
+def kesha_maker(arr)
+  arr.each do ||
 end 
 
   # Question 6
