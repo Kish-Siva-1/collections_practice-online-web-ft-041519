@@ -4,7 +4,7 @@ def add_s(arr)
   
   arr.each do |letter|
   counter+=1
-      next if counter == 1
+      next if counter == 2
   letter = letter.concat("s")
   end 
    
