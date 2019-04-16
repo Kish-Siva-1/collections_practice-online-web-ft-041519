@@ -25,7 +25,8 @@ end
 
 def kesha_maker(arr)
   arr.each do |letter|
-    letter[3]="$" 
+    letter[2]="$" 
   end
 end 
+
 
