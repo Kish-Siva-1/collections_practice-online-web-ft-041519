@@ -45,7 +45,7 @@ end
 
 def find_a(arr)
   arr.select do |letter|
-    letter = "a"
+    letter.start = "a"
     
   end
 end 
